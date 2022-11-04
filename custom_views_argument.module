@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Module file for Contextual Filter Range Validator.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_views_argument_help($route_name, RouteMatchInterface $route_match) {
+  $output = '';
+
+  switch ($route_name) {
+    case 'help.page.custom_views_argument':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module adds alias as filter for node id,
+        "Custom Views Argument" that can be used for contextual filter
+        for two nodes.') . '</p>';
+  }
+
+  return $output;
+}

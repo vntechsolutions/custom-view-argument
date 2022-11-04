@@ -1,0 +1,8 @@
+name: Custom Views Argument
+type: module
+description: Provides Content ID of URL aliases.
+package: Views
+core_version_requirement: ^8.8 || ^9
+
+dependencies:
+  - drupal:views
