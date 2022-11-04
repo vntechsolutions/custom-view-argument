@@ -6,3 +6,4 @@ While contextual filter can work for example/products/8/11 (8 and 11 coresspsond
 ## The solution
 
 Chris4783 suggested to create a custom ViewsArgumentValidator and transform the given alias to the Node ID, so the contextual can filter according to the given alias url.
+Read more: https://drupal.stackexchange.com/questions/311415/use-path-alias-as-contextual-filter
